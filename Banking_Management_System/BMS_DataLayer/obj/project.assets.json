@@ -5797,19 +5797,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rushikesh\\.nuget\\packages\\": {}
+    "C:\\Users\\Omar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EYTraining\\Capstone\\Git\\Banking_Management_System\\BMS_DataLayer\\BMS_DataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Omar\\Desktop\\EY GDS training material\\Banking Management System Git\\Banking_Management_System\\BMS_DataLayer\\BMS_DataLayer.csproj",
       "projectName": "BMS_DataLayer",
-      "projectPath": "D:\\EYTraining\\Capstone\\Git\\Banking_Management_System\\BMS_DataLayer\\BMS_DataLayer.csproj",
-      "packagesPath": "C:\\Users\\Rushikesh\\.nuget\\packages\\",
-      "outputPath": "D:\\EYTraining\\Capstone\\Git\\Banking_Management_System\\BMS_DataLayer\\obj\\",
+      "projectPath": "C:\\Users\\Omar\\Desktop\\EY GDS training material\\Banking Management System Git\\Banking_Management_System\\BMS_DataLayer\\BMS_DataLayer.csproj",
+      "packagesPath": "C:\\Users\\Omar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Omar\\Desktop\\EY GDS training material\\Banking Management System Git\\Banking_Management_System\\BMS_DataLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Rushikesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Omar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5863,7 +5868,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

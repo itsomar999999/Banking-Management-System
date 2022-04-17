@@ -4,3 +4,6 @@
 
 /.vs
 
+/Banking_Management_System/.vs/Banking_Management_System/v16
+/Banking_Management_System/BMS_DataLayer/bin/Debug/net5.0
+/Banking_Management_System/BMS_DataLayer/obj/Debug/net5.0/ref

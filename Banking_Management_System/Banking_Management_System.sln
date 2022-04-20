@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "..\..\..\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\DataLayer.csproj", "{120F53D7-EFB8-42A5-BFC4-4182466C7293}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "..\..\BankTest Fully Updated\BankTest\BankTest\DataLayer\DataLayer.csproj", "{BFE2653B-A2F9-43AA-A9CA-5C093B463316}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicLayer", "..\..\..\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\LogicLayer.csproj", "{2CF5B03A-BA20-4BEB-9DAC-A8C0E48E8857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicLayer", "..\..\BankTest Fully Updated\BankTest\BankTest\LogicLayer\LogicLayer.csproj", "{632DC378-8BE4-4A1E-8170-E0D8CC331807}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBankApp", "..\..\..\Bank Management Template\Bank Test Updated Final\BankTest\TestBankApp\TestBankApp.csproj", "{803375C5-142A-4AFE-8820-71F4165F8655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBankApp", "..\..\BankTest Fully Updated\BankTest\BankTest\TestBankApp\TestBankApp.csproj", "{9FEDF171-5C30-4BC8-9611-910D9D2FD318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{120F53D7-EFB8-42A5-BFC4-4182466C7293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{120F53D7-EFB8-42A5-BFC4-4182466C7293}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{120F53D7-EFB8-42A5-BFC4-4182466C7293}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{120F53D7-EFB8-42A5-BFC4-4182466C7293}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2CF5B03A-BA20-4BEB-9DAC-A8C0E48E8857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CF5B03A-BA20-4BEB-9DAC-A8C0E48E8857}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CF5B03A-BA20-4BEB-9DAC-A8C0E48E8857}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CF5B03A-BA20-4BEB-9DAC-A8C0E48E8857}.Release|Any CPU.Build.0 = Release|Any CPU
-		{803375C5-142A-4AFE-8820-71F4165F8655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{803375C5-142A-4AFE-8820-71F4165F8655}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{803375C5-142A-4AFE-8820-71F4165F8655}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{803375C5-142A-4AFE-8820-71F4165F8655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE2653B-A2F9-43AA-A9CA-5C093B463316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE2653B-A2F9-43AA-A9CA-5C093B463316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE2653B-A2F9-43AA-A9CA-5C093B463316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE2653B-A2F9-43AA-A9CA-5C093B463316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632DC378-8BE4-4A1E-8170-E0D8CC331807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632DC378-8BE4-4A1E-8170-E0D8CC331807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632DC378-8BE4-4A1E-8170-E0D8CC331807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632DC378-8BE4-4A1E-8170-E0D8CC331807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEDF171-5C30-4BC8-9611-910D9D2FD318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEDF171-5C30-4BC8-9611-910D9D2FD318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEDF171-5C30-4BC8-9611-910D9D2FD318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEDF171-5C30-4BC8-9611-910D9D2FD318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,30 @@
+D:\EYTraining\Capstone\test\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.deps.json
+D:\EYTraining\Capstone\test\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.dll
+D:\EYTraining\Capstone\test\BankTest\DataLayer\bin\Debug\net5.0\ref\DataLayer.dll
+D:\EYTraining\Capstone\test\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.pdb
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.csproj.AssemblyReference.cache
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfoInputs.cache
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfo.cs
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.dll
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.pdb
+D:\EYTraining\Capstone\test\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.runtimeconfig.json
+D:\EYTraining\Capstone\test\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.runtimeconfig.dev.json
+D:\EYTraining\Capstone\test\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.genruntimeconfig.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.deps.json
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.runtimeconfig.json
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.runtimeconfig.dev.json
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\bin\Debug\net5.0\ref\DataLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\bin\Debug\net5.0\DataLayer.pdb
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfo.cs
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.pdb
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\DataLayer\obj\Debug\net5.0\DataLayer.genruntimeconfig.cache

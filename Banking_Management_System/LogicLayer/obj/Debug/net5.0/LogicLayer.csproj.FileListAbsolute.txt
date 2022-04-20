@@ -1,0 +1,30 @@
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\bin\Debug\net5.0\LogicLayer.deps.json
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\bin\Debug\net5.0\LogicLayer.dll
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\bin\Debug\net5.0\ref\LogicLayer.dll
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\bin\Debug\net5.0\LogicLayer.pdb
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.AssemblyInfoInputs.cache
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.AssemblyInfo.cs
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.CoreCompileInputs.cache
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.dll
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\ref\LogicLayer.dll
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.pdb
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\bin\Debug\net5.0\DataLayer.dll
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\bin\Debug\net5.0\DataLayer.pdb
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.AssemblyReference.cache
+D:\EYTraining\Capstone\test\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.CopyComplete
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\bin\Debug\net5.0\LogicLayer.deps.json
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\bin\Debug\net5.0\LogicLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\bin\Debug\net5.0\ref\LogicLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\bin\Debug\net5.0\LogicLayer.pdb
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\bin\Debug\net5.0\DataLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\bin\Debug\net5.0\DataLayer.pdb
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.AssemblyReference.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.AssemblyInfoInputs.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.AssemblyInfo.cs
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.csproj.CopyComplete
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\ref\LogicLayer.dll
+C:\Users\Omar\Desktop\Bank Management Template\Bank Test Updated Final\BankTest\LogicLayer\obj\Debug\net5.0\LogicLayer.pdb

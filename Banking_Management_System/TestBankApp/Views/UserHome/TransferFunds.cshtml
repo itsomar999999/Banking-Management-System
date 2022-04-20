@@ -1,0 +1,144 @@
+﻿@model IEnumerable<DataLayer.Models.Beneficiary>
+
+@{
+    ViewData["Title"] = "TransferFunds";
+    Layout = "~/Views/Shared/_UserLogoutLayout.cshtml";
+}
+
+@*<h1>TransferFunds</h1>
+
+<form asp-action="TransferFunds">
+    <div class="form-outline mb-4">
+        <input type="text" name="BId" value="BId" />
+    </div>
+    <div class="form-outline mb-4">
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BAccId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BName)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BAccId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BName)
+                </td>
+                <td>
+
+                    <a asp-controller="UserHome" asp-action="Transfer" asp-route-id="@item.BId">Transfer</a>
+                    <a asp-action="Delete" asp-route-id="@item.BId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+       
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        body {
+            background: linear-gradient(270deg, #ad9ee5, #faaca8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center" style="background: #1ba6c6; border-radius: 15px; text-align: center; margin-top: 15px; height: 50px; "><h3>Transfer Funds</h3></div>
+    <div class="container" style="margin-top: 50px;">
+        <form asp-action="TransferFunds">
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-outline mb-4">
+                        <input type="text" name="BId" class="form-control" placeholder="Search Beneficiary" required/>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-outline mb-4">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+            
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="table-primary" style="text-align: center;">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.BId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.BAccId)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.BName)
+                        </th>
+                        <th>
+                            Transer/Delete
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody style="text-align: center;" class="table-secondary">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.BId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.BAccId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.BName)
+                            </td>
+                            <td>
+
+                                <a asp-controller="UserHome" asp-action="Transfer" asp-route-id="@item.BId" class="btn btn-success">Transfer</a>
+                                <a asp-controller="UserHome" asp-action="Remove_Bnf" asp-route-id="@item.BId" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

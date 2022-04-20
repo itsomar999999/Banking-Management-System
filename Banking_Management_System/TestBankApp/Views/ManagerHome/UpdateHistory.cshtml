@@ -1,0 +1,142 @@
+﻿@model IEnumerable<DataLayer.Models.UpdateHistory>
+
+@{
+    ViewData["Title"] = "UpdateHistory";
+    Layout = "~/Views/Shared/_AdminLogoutLayout.cshtml";
+}
+
+@*<h1>UpdateHistory</h1>
+
+<form asp-action="UpdateHistory">
+    <div class="form-outline mb-4">
+        <input type="text" name="BId" />
+    </div>
+    <div class="form-outline mb-4">
+        <button type="submit">Search</button>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdaterId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdatedId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateInfo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdaterId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdatedId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdateType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UpdateInfo)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        body {
+            background: linear-gradient(270deg, #ddd6f3, #faaca8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center" style="background: #1ba6c6; border-radius: 15px; text-align: center; margin-top: 15px; height: 50px; "><h3>Update History</h3></div>
+    <div class="container" style="margin-top: 50px; margin-bottom:150px;">
+        <form asp-action="UpdateHistory">
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-outline mb-4">
+                        <input type="text" name="BId" class="form-control" placeholder="Search Beneficiary" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-outline mb-4">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-primary" style="text-align: center;">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UpdaterId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UpdatedId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UpdateType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UpdateInfo)
+                    </th>
+                    
+
+                </tr>
+            </thead>
+            <tbody style="text-align: center;" class="table-secondary">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UpdaterId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UpdatedId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UpdateType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UpdateInfo)
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

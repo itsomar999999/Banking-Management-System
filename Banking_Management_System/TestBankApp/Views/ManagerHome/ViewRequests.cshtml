@@ -1,0 +1,185 @@
+﻿@model IEnumerable<DataLayer.Models.Request>
+
+@{
+    ViewData["Title"] = "ViewRequests";
+    Layout = "~/Views/Shared/_AdminLogoutLayout.cshtml";
+}
+
+@*<h1>ViewRequests</h1>
+
+<a asp-action="UpdateHistory">History</a> 
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aadhaar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RequestStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Lname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pan)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Aadhaar)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cus.CusId)
+                </td>
+                <td>
+                    <a asp-action="ApproveRequest" asp-route-id="@item.RequestId">Approve</a> |
+                    <a asp-action="RejectRequest" asp-route-id="@item.RequestId">Reject</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        body {
+            background: linear-gradient(270deg, #ddd6f3, #faaca8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center" style=" background-color: #1ba6c6; text-align: center; margin-top: 15px; height: 50px; border-radius: 15px;">
+        <h3>View Requests</h3>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <a asp-action="UpdateHistory" class="btn btn-primary" style="margin-bottom:20px;">View History</a>
+        <table class="table table-bordered table-striped table-hover">
+            <thead class="table-primary" style="text-align: center;">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RequestStatus)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Fname)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Lname)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PhoneNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Pan)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Aadhaar)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Address)
+                    </th>
+                    <th>
+                        <h6>Approve/Reject</h6>
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody style="text-align: center;" class="table-secondary">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RequestStatus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Fname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Lname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PhoneNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Pan)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Aadhaar)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Address)
+                        </td>
+                        <td>
+                            <a asp-action="ApproveRequest" asp-route-id="@item.RequestId" class="btn btn-primary">Approve</a>
+                            <a asp-action="RejectRequest" asp-route-id="@item.RequestId" class="btn btn-danger">Reject</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
